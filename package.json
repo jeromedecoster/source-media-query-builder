@@ -1,0 +1,29 @@
+{
+  "name": "source-media-query-builder",
+  "version": "0.1.0",
+  "description": "Build media-query for the source node with helpers",
+  "repository": "jeromedecoster/source-media-query-builder",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "media",
+    "query",
+    "queries",
+    "media-query",
+    "media-queries",
+    "source",
+    "builder"
+  ],
+  "scripts": {
+    "start": "onchange {index,test}.js -- npm test",
+    "test": "tape test.js | tap-min"
+  },
+  "devDependencies": {
+    "onchange": "^2.0.0",
+    "tap-min": "^1.0.0",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
